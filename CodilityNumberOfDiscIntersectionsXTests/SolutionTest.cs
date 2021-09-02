@@ -5,20 +5,16 @@ namespace CodilityNumberOfDiscIntersectionsXTests
 {
     public class SolutionTest
     {
-        [Fact]
-        public void SimpleFirstTest()
-        {
-            //arrange
-            int[] arr = new int[] { 0, 1 };
-            int expected = 1;
+        [Theory]
+        [InlineData(new int[]{0, 1}, 1)]
+        [InlineData(new int[] { 0, 0, 0 }, 0)]
 
-            //act
+        public void SimpleFirstTest(int[] arr, int expected)
+        {
             Solution s = new();
             int actualPairs = s.solution(arr);
 
-            //assert
             Assert.Equal(expected, actualPairs);
-
         }
     }
 }
