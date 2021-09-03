@@ -3,8 +3,14 @@ using System.Collections.Generic;
 
 public class Solution
 {
-    private static Dictionary<int, int> discCounts = new();
-    private static Dictionary<int, int> accum = new();
+    private static Dictionary<int, int> discCounts;
+    private static Dictionary<int, int> accum;
+
+    public Solution()
+    {
+        discCounts = new();
+        accum = new();
+    }
 
     public int solution(int[] A)
     {
@@ -26,7 +32,7 @@ public class Solution
     public static int getPairsCount(int minPnt, int maxPnt, int discNum)
     {
         List<int> pairs = new List<int>();
-        List<int> counts = new List<int>();
+        //List<int> counts = new List<int>();
         for (int x = minPnt; x <= maxPnt; x++)
         {
             if (accum.ContainsKey(x))
@@ -55,21 +61,21 @@ public class Solution
                 }
 
             }
-            int curPairs = 0;
-            if (pairs.Count > x)
-            {
-                curPairs = pairs[x];
-            }
-            int curCounts = 0;
-            if (counts.Count > x)
-            {
-                curCounts = counts[x];
-            }
-            Console.Write(" discCounts[" + x + "]: " + discCounts[x]);
-            Console.Write(" accum[" + x + "]: " + accum[x]);
-            Console.Write(" pairs[" + x + "]: " + curPairs);
-            Console.Write(" counts[" + x + "]: " + curCounts);
-            Console.Write("\n");
+            //int curPairs = 0;
+            //if (pairs.Count > x)
+            //{
+            //    curPairs = pairs[x];
+            //}
+            //int curCounts = 0;
+            //if (counts.Count > x)
+            //{
+            //    curCounts = counts[x];
+            //}
+            //Console.Write(" discCounts[" + x + "]: " + discCounts[x]);
+            //Console.Write(" accum[" + x + "]: " + accum[x]);
+            //Console.Write(" pairs[" + x + "]: " + curPairs);
+            //Console.Write(" counts[" + x + "]: " + curCounts);
+            //Console.Write("\n");
         }
         return pairs.Count;
 
@@ -90,10 +96,10 @@ public class Solution
     static void Main(string[] args)
     {
         Solution s = new Solution();
-        int[] arr = new int[] { 1, 5, 2, 1, 4, 0 };
+        int[] arr = new int[] { 0, 1 };
         int pairs = s.solution(arr);
         //s.PrintPtns();
-        //Console.WriteLine("pairs count: " + pairs);
+        Console.WriteLine("pairs count: " + pairs);
 
     }
 }
