@@ -49,7 +49,10 @@ public class Solution
             if (discCounts[x] > 1 && pairs.IndexOf(accum[x]) == -1)
             {
                 //counts.Add(discCounts[x]);
-                pairs.Add(accum[x]);
+                for (int i = 1; i < discCounts[x]; i++) {
+                    pairs.Add(accum[x]);
+                }
+
             }
             else if (discCounts[x] > 1)
             {
@@ -96,7 +99,7 @@ public class Solution
     static void Main(string[] args)
     {
         Solution s = new Solution();
-        int[] arr = new int[] { 0, 1 };
+        int[] arr = new int[] { 1, 0, 1};
         int pairs = s.solution(arr);
         //s.PrintPtns();
         Console.WriteLine("pairs count: " + pairs);
