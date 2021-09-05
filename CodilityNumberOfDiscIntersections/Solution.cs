@@ -24,7 +24,6 @@ public class Solution
 
             pairsCount += getPairsCount(minPnt, maxPnt, discNum);
             if (pairsCount > 10_000_000) return -1;
-            //Console.WriteLine("pairsCount: " + pairsCount);
         }
         return pairsCount;
     }
