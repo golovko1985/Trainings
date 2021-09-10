@@ -14,6 +14,26 @@ public class Solution
 
     public int solution(int[] A)
     {
+        int[] start = new int[A.Length];
+        int[] end = new int[A.Length];
+        int intersections = 0;
+
+        for(int centrPnt = 0; centrPnt < A.Length; centrPnt++)
+        {
+            int radius = A[centrPnt];
+            int minPnt = centrPnt - radius > 0 ? centrPnt - radius : 0;
+            int maxPnt = centrPnt + radius;
+            start[centrPnt] = minPnt;
+            end[centrPnt] = maxPnt;
+        }
+        Array.Sort(start);
+        Array.Sort(end);
+
+        return intersections;
+    }
+
+    public int solution2(int[] A)
+    {
         int pairsCount = 0;
         for (int discNum = 1; discNum <= A.Length; discNum++)
         {
@@ -24,7 +44,6 @@ public class Solution
 
             pairsCount += getPairsCount(minPnt, maxPnt, discNum);
             if (pairsCount > 10_000_000) return -1;
-            //Console.WriteLine("pairsCount: " + pairsCount);
         }
         return pairsCount;
     }
@@ -96,7 +115,7 @@ public class Solution
     static void Main(string[] args)
     {
         Solution s = new Solution();
-        int[] arr = new int[] { 0, 1 };
+        int[] arr = new int[] {1, 0, 1 };
         int pairs = s.solution(arr);
         //s.PrintPtns();
         Console.WriteLine("pairs count: " + pairs);
