@@ -68,7 +68,10 @@ public class Solution
             if (discCounts[x] > 1 && pairs.IndexOf(accum[x]) == -1)
             {
                 //counts.Add(discCounts[x]);
-                pairs.Add(accum[x]);
+                for (int i = 1; i < discCounts[x]; i++) {
+                    pairs.Add(accum[x]);
+                }
+
             }
             else if (discCounts[x] > 1)
             {
