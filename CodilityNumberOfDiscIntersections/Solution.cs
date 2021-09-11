@@ -5,19 +5,7 @@ public class Solution
 {
     public int solution(int[] A)
     {
-        int[] start = new int[A.Length];
-        int[] end = new int[A.Length];
-        for(int centrPnt = 0; centrPnt < A.Length; centrPnt++)
-        {
-            int radius = A[centrPnt];
-            int minPnt = centrPnt - radius > 0 ? centrPnt - radius : 0;
-            int maxPnt = centrPnt + radius;
-            start[centrPnt] = minPnt;
-            end[centrPnt] = maxPnt;
-        }
-        Array.Sort(start);
-        Array.Sort(end);
-
+        ReadInput(A, out int[] start, out int[] end);
         int intersections = 0, started = 0;
         for (int startIndex = 0, endIndex = 0;  startIndex < A.Length; )
         {
@@ -37,7 +25,25 @@ public class Solution
                 endIndex++;
             }
         }
+        // todo add case with -1
+        // correctness 81
         return intersections;
+    }
+
+    private static void ReadInput(int[] A, out int[] starts, out int[] ends)
+    {
+        starts = new int[A.Length];
+        ends = new int[A.Length];
+        for (int centrPnt = 0; centrPnt < A.Length; centrPnt++)
+        {
+            int radius = A[centrPnt];
+            int minPnt = centrPnt - radius > 0 ? centrPnt - radius : 0;
+            int maxPnt = centrPnt + radius;
+            starts[centrPnt] = minPnt;
+            ends[centrPnt] = maxPnt;
+        }
+        Array.Sort(starts);
+        Array.Sort(ends);
     }
 
     static void Main(string[] args)
