@@ -28,8 +28,10 @@ namespace CodilityNumberOfDiscIntersectionsXTests
         [Theory]
         [InlineData(new int[] { 1 }, 0)]
         [InlineData(new int[] { 0, 1 }, 1)]
+        [InlineData(new int[] { 1, 1 }, 1)]
         [InlineData(new int[] { 0, 0, 0 }, 0)]
-        [InlineData(new int[] { 1, 0, 1 }, 3)] //TODO: check!  doesnt work properly
+        [InlineData(new int[] { 1, 1, 1 }, 3)]
+        [InlineData(new int[] { 1, 0, 1 }, 3)] //TODO: check! doesnt work properly
         [InlineData(new int[] { 1, 9, 1 }, 3)]
         [InlineData(new int[] { 1, 1, 1, 1 }, 5)]
         [InlineData(new int[] { 2, 3, 0, 0, 4, 2, 3 }, 15)]

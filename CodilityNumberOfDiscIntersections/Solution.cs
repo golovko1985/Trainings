@@ -16,7 +16,7 @@ public class Solution
     {
         int[] start = new int[A.Length];
         int[] end = new int[A.Length];
-        int intersections = 0;
+
 
         for(int centrPnt = 0; centrPnt < A.Length; centrPnt++)
         {
@@ -29,6 +29,27 @@ public class Solution
         Array.Sort(start);
         Array.Sort(end);
 
+        int intersections = 0, started = 0;
+
+        for (int startIndex = 0, endIndex = 0;  startIndex < A.Length; )
+        {
+            if (start[startIndex] <= end[endIndex])
+            {
+                startIndex++;
+                started++;
+                if (started > 1)
+                {
+                    int addIntersec = started - 1;
+                    intersections += addIntersec;
+                }
+            }
+            else 
+            {
+                started--;
+                endIndex++;
+            }
+
+        }
         return intersections;
     }
 
@@ -118,7 +139,7 @@ public class Solution
     static void Main(string[] args)
     {
         Solution s = new Solution();
-        int[] arr = new int[] {1, 0, 1 };
+        int[] arr = new int[] {1 ,1 ,1 ,1 };
         int pairs = s.solution(arr);
         //s.PrintPtns();
         Console.WriteLine("pairs count: " + pairs);
