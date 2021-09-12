@@ -40,7 +40,7 @@ public class Solution
         {
             int radius = A[centrPnt];
             int minPnt = centrPnt - radius > 0 ? centrPnt - radius : 0;
-            int maxPnt = centrPnt + radius;
+            int maxPnt = centrPnt + radius < 0 ? int.MaxValue : centrPnt + radius;
             starts[centrPnt] = minPnt;
             ends[centrPnt] = maxPnt;
         }

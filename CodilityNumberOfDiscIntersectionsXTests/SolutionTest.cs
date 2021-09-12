@@ -25,6 +25,16 @@ namespace CodilityNumberOfDiscIntersectionsXTests
             Assert.Equal(expected, actualPairs);
         }
 
+        [Fact]
+        public void OverflowTest()
+        {
+            int[] arr = new int[] {1, 2147483647, 0};  //2147483647
+            int expected = 2;
+            Solution s = new();
+            int actualPairs = s.solution(arr);
+            Assert.Equal(expected, actualPairs);
+        }
+
         [Theory]
         [InlineData(new int[] { 1 }, 0)]
         [InlineData(new int[] { 0, 1 }, 1)]
