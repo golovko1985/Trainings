@@ -25,8 +25,10 @@ public class Solution
                 endIndex++;
             }
         }
-        // todo add case with -1
-        // correctness 81
+        if(intersections > 10_000_000)
+        {
+            return -1;
+        }
         return intersections;
     }
 
