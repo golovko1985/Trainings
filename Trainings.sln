@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodilityNumberOfDiscIntersections", "CodilityNumberOfDiscIntersections\CodilityNumberOfDiscIntersections.csproj", "{9852C5EC-EE64-4655-B902-5E96951962CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodilityNumberOfDiscIntersections", "CodilityNumberOfDiscIntersections\CodilityNumberOfDiscIntersections.csproj", "{9852C5EC-EE64-4655-B902-5E96951962CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodilityNumberOfDiscIntersectionsXTests", "CodilityNumberOfDiscIntersectionsXTests\CodilityNumberOfDiscIntersectionsXTests.csproj", "{7907B237-63B7-4F5E-8235-1153258BF39A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodilityNumberOfDiscIntersectionsXTests", "CodilityNumberOfDiscIntersectionsXTests\CodilityNumberOfDiscIntersectionsXTests.csproj", "{7907B237-63B7-4F5E-8235-1153258BF39A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsSumTwoSmallestNumbers", "CodeWarsSumTwoSmallestNumbers\CodeWarsSumTwoSmallestNumbers.csproj", "{41BAD8FF-FF86-42D8-97F4-B8EAFAFEEBE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7907B237-63B7-4F5E-8235-1153258BF39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7907B237-63B7-4F5E-8235-1153258BF39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7907B237-63B7-4F5E-8235-1153258BF39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BAD8FF-FF86-42D8-97F4-B8EAFAFEEBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BAD8FF-FF86-42D8-97F4-B8EAFAFEEBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BAD8FF-FF86-42D8-97F4-B8EAFAFEEBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BAD8FF-FF86-42D8-97F4-B8EAFAFEEBE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
