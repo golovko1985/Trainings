@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsSumTwoSmallestNumbe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsSumTwoSmallestNumbersNTest", "CodeWarsSumTwoSmallestNumbersNTest\CodeWarsSumTwoSmallestNumbersNTest.csproj", "{86CDB9A7-43BC-4EB1-98C2-DC975A29169E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsYourOrderPlease", "CodeWarsYourOrderPlease\CodeWarsYourOrderPlease.csproj", "{C7E97A53-0E42-4A87-86E0-6C901FF9F7A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsYourOrderPlease", "CodeWarsYourOrderPlease\CodeWarsYourOrderPlease.csproj", "{C7E97A53-0E42-4A87-86E0-6C901FF9F7A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsYourOrderPleaseNTests", "CodeWarsYourOrderPleaseNTests\CodeWarsYourOrderPleaseNTests.csproj", "{FABC48EE-05CA-4E02-8C60-054F26CDA68A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsYourOrderPleaseNTests", "CodeWarsYourOrderPleaseNTests\CodeWarsYourOrderPleaseNTests.csproj", "{FABC48EE-05CA-4E02-8C60-054F26CDA68A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureArea", "FigureArea\FigureArea.csproj", "{A7131E78-D55E-422C-B315-176B233367A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureAreaTests", "FigureAreaTests\FigureAreaTests.csproj", "{A62B811B-3D21-448A-9C2D-98C84C3E4AEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{FABC48EE-05CA-4E02-8C60-054F26CDA68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FABC48EE-05CA-4E02-8C60-054F26CDA68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FABC48EE-05CA-4E02-8C60-054F26CDA68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7131E78-D55E-422C-B315-176B233367A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7131E78-D55E-422C-B315-176B233367A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7131E78-D55E-422C-B315-176B233367A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7131E78-D55E-422C-B315-176B233367A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62B811B-3D21-448A-9C2D-98C84C3E4AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62B811B-3D21-448A-9C2D-98C84C3E4AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62B811B-3D21-448A-9C2D-98C84C3E4AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62B811B-3D21-448A-9C2D-98C84C3E4AEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
