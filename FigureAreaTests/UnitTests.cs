@@ -38,12 +38,17 @@ namespace FigureArea
             Assert.AreEqual(expectedArea, actualCircle.Area, Constants.Epsilon);
         }
 
+        // Heronian triangles
+        [TestCase(6, 5, 5, 12)]
+        [TestCase(20, 15, 7, 42)]
+        [TestCase(41, 41, 18, 360)]
+
         // Equilateral Triangle
         [TestCase(1, 1, 1, 0.4330127)]
         // Isosceles triangle
         [TestCase(3, 3, 1, 1.47901995)]
         // Scalene triangle
-        //[TestCase(0.01, 3.15, 3.05740722, 0.05860592)]
+        [TestCase(0.1, 3.15, 3.05740722, 0.05860592)]
         // Right
         [TestCase(3E+7, 4E+7, 5E+7, 6E+14)]
         // Obtuse
@@ -80,6 +85,16 @@ namespace FigureArea
         {
             var actualTriangle = new Triangle(a, b, c);
             Assert.IsFalse(actualTriangle.HasRightAngle());
+        }
+
+        [TestCase(1, 1, 10)]
+        [TestCase(3, 4, 8)]
+        [TestCase(0.01, 3.15, 3.1)]
+        public void ExceptionTriangleAreaBunch(double a, double b, double c)
+        {
+            double actualArea;
+            var actualTriangle = new Triangle(a, b, c);
+            Assert.Catch<ArgumentOutOfRangeException>(() => actualArea = actualTriangle.Area);
         }
     }
 }

@@ -35,7 +35,7 @@ namespace FigureArea
             {
                 double halfPerim = (SideA + SideB + SideC) / 2;
                 if(halfPerim < SideA || halfPerim < SideB || halfPerim < SideC)
-                    throw new ArgumentOutOfRangeException();
+                    throw new ArgumentOutOfRangeException("Triangle does not exist with such sides");
                 // Heron's formula:
                 return Math.Sqrt(halfPerim * (halfPerim - SideA) * (halfPerim - SideB) * (halfPerim - SideC));
             }
