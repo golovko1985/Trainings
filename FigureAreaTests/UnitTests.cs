@@ -1,6 +1,5 @@
 using System;
 using NUnit.Framework;
-using FigureArea;
 
 namespace FigureArea
 {
@@ -95,6 +94,17 @@ namespace FigureArea
             double actualArea;
             var actualTriangle = new Triangle(a, b, c);
             Assert.Catch<ArgumentOutOfRangeException>(() => actualArea = actualTriangle.Area);
+        }
+
+        [Test]
+        public void SomeFigureTest()
+        {
+            Triangle triangle = new Triangle(3, 4, 5);
+            SomeFigure someFigure = new SomeFigure(triangle);
+            Circle circle = new Circle(10);
+            someFigure = new SomeFigure(circle);
+            Assert.AreEqual(circle.Area, someFigure.Area, Constants.Epsilon);
+
         }
     }
 }
