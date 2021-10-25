@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodilityNumberOfDiscInterse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodilityNumberOfDiscIntersectionsXTests", "CodilityNumberOfDiscIntersectionsXTests\CodilityNumberOfDiscIntersectionsXTests.csproj", "{7907B237-63B7-4F5E-8235-1153258BF39A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsSumTwoSmallestNumbers", "CodeWarsSumTwoSmallestNumbers\CodeWarsSumTwoSmallestNumbers.csproj", "{41BAD8FF-FF86-42D8-97F4-B8EAFAFEEBE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsSumTwoSmallestNumbers", "CodeWars\CodeWarsSumTwoSmallestNumbers\CodeWarsSumTwoSmallestNumbers.csproj", "{41BAD8FF-FF86-42D8-97F4-B8EAFAFEEBE6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsSumTwoSmallestNumbersNTest", "CodeWarsSumTwoSmallestNumbersNTest\CodeWarsSumTwoSmallestNumbersNTest.csproj", "{86CDB9A7-43BC-4EB1-98C2-DC975A29169E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsSumTwoSmallestNumbersNTest", "CodeWars\CodeWarsSumTwoSmallestNumbersNTest\CodeWarsSumTwoSmallestNumbersNTest.csproj", "{86CDB9A7-43BC-4EB1-98C2-DC975A29169E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsYourOrderPlease", "CodeWarsYourOrderPlease\CodeWarsYourOrderPlease.csproj", "{C7E97A53-0E42-4A87-86E0-6C901FF9F7A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsYourOrderPlease", "CodeWars\CodeWarsYourOrderPlease\CodeWarsYourOrderPlease.csproj", "{C7E97A53-0E42-4A87-86E0-6C901FF9F7A4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsYourOrderPleaseNTests", "CodeWarsYourOrderPleaseNTests\CodeWarsYourOrderPleaseNTests.csproj", "{FABC48EE-05CA-4E02-8C60-054F26CDA68A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsYourOrderPleaseNTests", "CodeWars\CodeWarsYourOrderPleaseNTests\CodeWarsYourOrderPleaseNTests.csproj", "{FABC48EE-05CA-4E02-8C60-054F26CDA68A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureArea", "FigureArea\FigureArea.csproj", "{A7131E78-D55E-422C-B315-176B233367A9}"
 EndProject
