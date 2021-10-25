@@ -52,8 +52,8 @@ VALUES
 	(6, 3);
 
 /*
-   Напишите SQL запрос для выбора всех пар «Имя продукта – Имя категории».
-   Если у продукта нет категорий, то его имя все равно должно выводиться. 
+    SQL query to select all pairs "Product name - Category name".
+    If the product has no categories, then its name should still be displayed.
 */
 
 SELECT Product.Product_Name, Category_Name
