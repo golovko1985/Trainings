@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsYourOrderPleaseNTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureArea", "FigureArea\FigureArea.csproj", "{A7131E78-D55E-422C-B315-176B233367A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureAreaTests", "FigureAreaTests\FigureAreaTests.csproj", "{A62B811B-3D21-448A-9C2D-98C84C3E4AEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureAreaTests", "FigureAreaTests\FigureAreaTests.csproj", "{A62B811B-3D21-448A-9C2D-98C84C3E4AEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FigureAreaDir", "FigureAreaDir", "{225BCFAB-94A4-4029-AB5A-3499787AE151}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +62,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7131E78-D55E-422C-B315-176B233367A9} = {225BCFAB-94A4-4029-AB5A-3499787AE151}
+		{A62B811B-3D21-448A-9C2D-98C84C3E4AEF} = {225BCFAB-94A4-4029-AB5A-3499787AE151}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95E64E41-54B5-426A-9A6E-6B5383197F67}
