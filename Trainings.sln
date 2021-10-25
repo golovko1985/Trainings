@@ -20,6 +20,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureAreaTests", "Figure\FigureAreaTests\FigureAreaTests.csproj", "{A62B811B-3D21-448A-9C2D-98C84C3E4AEF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Figure", "Figure", "{225BCFAB-94A4-4029-AB5A-3499787AE151}"
+	ProjectSection(SolutionItems) = preProject
+		Product_category.sql = Product_category.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
