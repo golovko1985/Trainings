@@ -24,6 +24,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Figure", "Figure", "{225BCF
 		Product_category.sql = Product_category.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsJadenCasingStrings", "CodeWarsJadenCasingStrings\CodeWarsJadenCasingStrings.csproj", "{6BD9CC29-F117-4615-878C-630ACB0BA864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsJadenCasingStringsNTest", "CodeWarsJadenCasingStringsNTest\CodeWarsJadenCasingStringsNTest.csproj", "{8B486FD2-0E7A-4D04-B209-3ACB7185CC1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +66,14 @@ Global
 		{A62B811B-3D21-448A-9C2D-98C84C3E4AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A62B811B-3D21-448A-9C2D-98C84C3E4AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A62B811B-3D21-448A-9C2D-98C84C3E4AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD9CC29-F117-4615-878C-630ACB0BA864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD9CC29-F117-4615-878C-630ACB0BA864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD9CC29-F117-4615-878C-630ACB0BA864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD9CC29-F117-4615-878C-630ACB0BA864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B486FD2-0E7A-4D04-B209-3ACB7185CC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B486FD2-0E7A-4D04-B209-3ACB7185CC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B486FD2-0E7A-4D04-B209-3ACB7185CC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B486FD2-0E7A-4D04-B209-3ACB7185CC1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
