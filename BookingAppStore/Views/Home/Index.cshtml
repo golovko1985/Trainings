@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Книжный магазин";
+}
+
+<div>
+    <h3>Распродажа книг</h3>
+    <table>
+        <tr class="container-fluid">
+            <td class="col-md-3"><p>Название книги</p></td>
+            <td class="col-md-3"><p>Автор</p></td>
+            <td class="col-md-3"><p>Цена</p></td>
+            <td class="col-md-3"></td>
+        </tr>
+        @foreach (var b in ViewBag.Books)
+        {
+            <tr class="container-fluid">
+                <td class="col-md-3"><p>@b.Name</p></td>
+                <td class="col-md-3"><p>@b.Author</p></td>
+                <td class="col-md-3"><p>@b.Price</p></td>
+                <td class="col-md-3"><p><a href="/Home/Buy/@b.Id">Купить</a></p></td>
+            </tr>
+        }
+    </table>
+</div>

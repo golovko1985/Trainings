@@ -24,9 +24,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Figure", "Figure", "{225BCF
 		Product_category.sql = Product_category.sql
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsJadenCasingStrings", "CodeWarsJadenCasingStrings\CodeWarsJadenCasingStrings.csproj", "{6BD9CC29-F117-4615-878C-630ACB0BA864}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsJadenCasingStrings", "CodeWarsJadenCasingStrings\CodeWarsJadenCasingStrings.csproj", "{6BD9CC29-F117-4615-878C-630ACB0BA864}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsJadenCasingStringsNTest", "CodeWarsJadenCasingStringsNTest\CodeWarsJadenCasingStringsNTest.csproj", "{8B486FD2-0E7A-4D04-B209-3ACB7185CC1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWarsJadenCasingStringsNTest", "CodeWarsJadenCasingStringsNTest\CodeWarsJadenCasingStringsNTest.csproj", "{8B486FD2-0E7A-4D04-B209-3ACB7185CC1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAppStore", "BookingAppStore\BookingAppStore.csproj", "{8D2C4423-44D8-44A9-BC51-ADAA89BF9270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{8B486FD2-0E7A-4D04-B209-3ACB7185CC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B486FD2-0E7A-4D04-B209-3ACB7185CC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B486FD2-0E7A-4D04-B209-3ACB7185CC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2C4423-44D8-44A9-BC51-ADAA89BF9270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2C4423-44D8-44A9-BC51-ADAA89BF9270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2C4423-44D8-44A9-BC51-ADAA89BF9270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2C4423-44D8-44A9-BC51-ADAA89BF9270}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
